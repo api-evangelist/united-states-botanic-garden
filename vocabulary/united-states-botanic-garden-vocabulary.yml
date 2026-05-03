@@ -1,0 +1,160 @@
+name: United States Botanic Garden Vocabulary
+description: >-
+  Domain vocabulary for the United States Botanic Garden covering plant taxonomy,
+  living collections management, conservation biology, and botanic garden
+  operational concepts.
+tags:
+  - Botany
+  - Plants
+  - Conservation
+  - Federal Government
+  - Education
+created: '2026-05-03'
+modified: '2026-05-03'
+
+terms:
+
+  - term: Accession
+    label: Accession
+    definition: >-
+      A plant or group of plants of the same taxon acquired at the same time
+      from the same source. Each accession is assigned a unique number and
+      tracked through the Living Collections database. The USBG maintains more
+      than 9,500 accessions.
+    tags:
+      - Collections Management
+      - Taxonomy
+
+  - term: BG-BASE
+    label: BG-BASE
+    definition: >-
+      The Living Collections database management system used by the United States
+      Botanic Garden to document, track, and manage its plant collection. Data
+      from BG-BASE is extracted and made available through the online Plant
+      Database Search.
+    tags:
+      - Systems
+      - Data Management
+
+  - term: Conservatory
+    label: Conservatory
+    definition: >-
+      The main glasshouse building of the United States Botanic Garden, housing
+      permanent collections in specialized garden rooms including the Jungle,
+      Desert, Medicinal Plants, and Orchid & Bromeliad rooms.
+    tags:
+      - Facilities
+      - Collections
+
+  - term: Conservation Status
+    label: Conservation Status
+    definition: >-
+      An assessment of the likelihood of a taxon continuing to survive, based
+      on the IUCN Red List categories: Extinct, Extinct in the Wild, Critically
+      Endangered, Endangered, Vulnerable, Near Threatened, Least Concern.
+    tags:
+      - Conservation
+      - Classification
+
+  - term: Ex Situ Conservation
+    label: Ex Situ Conservation
+    definition: >-
+      The conservation of components of biological diversity outside their
+      natural habitats. Botanic gardens like the USBG maintain living collections
+      as ex situ conservation repositories for rare, threatened, and endangered
+      plant species.
+    tags:
+      - Conservation
+      - Science
+
+  - term: Family
+    label: Plant Family
+    definition: >-
+      A taxonomic rank in plant classification above genus and below order.
+      Plant families group genera that share common evolutionary traits
+      (e.g., Orchidaceae for orchids, Cactaceae for cacti).
+    tags:
+      - Taxonomy
+      - Classification
+
+  - term: Garden Explorer
+    label: Garden Explorer
+    definition: >-
+      The USBG's online interactive tool for browsing and searching the living
+      plant collection, accessible at usbg.gardenexplorer.org. Allows users to
+      search by scientific name, common name, family, genus, or garden location.
+    tags:
+      - Tools
+      - Digital Access
+
+  - term: Living Collection
+    label: Living Collection
+    definition: >-
+      The total assemblage of documented and actively managed living plant
+      specimens maintained by a botanic garden. The USBG's living collection
+      comprises approximately 44,000 individual plants across more than 9,500
+      accessions.
+    tags:
+      - Collections Management
+      - Botany
+
+  - term: Native Range
+    label: Native Range
+    definition: >-
+      The geographic region where a plant species naturally occurs in the wild
+      without human introduction. Documentation of native range is essential
+      for conservation planning and appropriate cultivation conditions.
+    tags:
+      - Geography
+      - Taxonomy
+
+  - term: Phenology
+    label: Phenology
+    definition: >-
+      The study of cyclic and seasonal natural phenomena, particularly as
+      related to climate and plant life, including bloom times, leaf emergence,
+      and seed dispersal. USBG tracks phenological data for collection plants.
+    tags:
+      - Science
+      - Observation
+
+  - term: Plant Hardiness Zone
+    label: Plant Hardiness Zone
+    definition: >-
+      A geographic area defined by average annual minimum winter temperatures,
+      used by gardeners and growers to determine which plants are most likely
+      to survive at a location. USDA Plant Hardiness Zone Map is the standard
+      reference in the United States.
+    tags:
+      - Classification
+      - Horticulture
+
+  - term: Scientific Name
+    label: Scientific Name
+    definition: >-
+      The formal Latin binomial name for a species, consisting of the genus name
+      (capitalized) followed by the species epithet (lowercase). Scientific names
+      follow the International Code of Nomenclature for algae, fungi, and plants.
+    tags:
+      - Taxonomy
+      - Nomenclature
+
+  - term: Taxon
+    label: Taxon
+    definition: >-
+      Any named group of organisms treated as a unit in biological taxonomy.
+      In botanic garden collections management, taxa include species, subspecies,
+      varieties, cultivars, and hybrids.
+    tags:
+      - Taxonomy
+      - Classification
+
+  - term: Urban Agriculture
+    label: Urban Agriculture
+    definition: >-
+      The practice of growing food in urban environments. The USBG supports
+      urban agriculture through grant programs and educational initiatives,
+      having funded 26 urban agriculture projects totaling $445,600.
+    tags:
+      - Programs
+      - Community

@@ -1,0 +1,21 @@
+{
+  "title": "USBG Plant Structure",
+  "description": "Structure documentation for United States Botanic Garden plant collection records",
+  "type": "object",
+  "fields": [
+    { "name": "accessionNumber", "type": "string", "required": false, "description": "Unique accession identifier" },
+    { "name": "scientificName", "type": "string", "required": true, "description": "Full scientific name" },
+    { "name": "genus", "type": "string", "required": false, "description": "Genus name" },
+    { "name": "species", "type": "string", "required": false, "description": "Species epithet" },
+    { "name": "family", "type": "string", "required": false, "description": "Plant family" },
+    { "name": "commonName", "type": "array<string>", "required": false, "description": "Common name(s)" },
+    { "name": "nativeRange", "type": "string", "required": false, "description": "Geographic native range" },
+    { "name": "description", "type": "string", "required": false, "description": "Descriptive text" },
+    { "name": "location", "type": "string", "required": false, "description": "Physical location in USBG" },
+    { "name": "source", "type": "string", "required": false, "description": "Acquisition source" },
+    { "name": "acquisitionDate", "type": "string (date)", "required": false, "description": "Date acquired" },
+    { "name": "quantity", "type": "integer", "required": false, "description": "Number of individual plants" },
+    { "name": "conservationStatus", "type": "string", "required": false, "description": "IUCN conservation status" },
+    { "name": "tags", "type": "array<string>", "required": false, "description": "Classification tags" }
+  ]
+}

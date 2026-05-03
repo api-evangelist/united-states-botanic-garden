@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "dwc": "http://rs.tdwg.org/dwc/terms/",
+    "dwciri": "http://rs.tdwg.org/dwc/iri/",
+    "taxon": "http://rs.tdwg.org/ontology/voc/TaxonConcept#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "usbg": "https://www.usbg.gov/vocab#",
+
+    "PlantSpecimen": {
+      "@id": "dwc:Occurrence",
+      "@type": "@id"
+    },
+    "TaxonConcept": {
+      "@id": "dwc:Taxon",
+      "@type": "@id"
+    },
+    "LivingCollection": {
+      "@id": "usbg:LivingCollection",
+      "@type": "@id"
+    },
+    "scientificName": {
+      "@id": "dwc:scientificName"
+    },
+    "genus": {
+      "@id": "dwc:genus"
+    },
+    "species": {
+      "@id": "dwc:specificEpithet"
+    },
+    "family": {
+      "@id": "dwc:family"
+    },
+    "commonName": {
+      "@id": "dwc:vernacularName"
+    },
+    "nativeRange": {
+      "@id": "dwc:nativeRange"
+    },
+    "accessionNumber": {
+      "@id": "dwc:catalogNumber"
+    },
+    "acquisitionDate": {
+      "@id": "dwc:dateIdentified",
+      "@type": "xsd:date"
+    },
+    "quantity": {
+      "@id": "dwc:individualCount",
+      "@type": "xsd:integer"
+    },
+    "conservationStatus": {
+      "@id": "usbg:conservationStatus"
+    },
+    "location": {
+      "@id": "dwc:locationID"
+    },
+    "source": {
+      "@id": "dwc:datasetName"
+    },
+    "Conservatory": {
+      "@id": "usbg:Conservatory"
+    },
+    "BotanicGarden": {
+      "@id": "schema:Park",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "image": "schema:image"
+  }
+}

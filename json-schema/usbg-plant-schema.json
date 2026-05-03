@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.usbg.gov/schemas/plant",
+  "title": "USBG Plant",
+  "description": "A plant specimen in the United States Botanic Garden Living Collections database.",
+  "type": "object",
+  "required": ["scientificName"],
+  "properties": {
+    "accessionNumber": {
+      "type": "string",
+      "description": "Unique accession identifier assigned when the plant was acquired"
+    },
+    "scientificName": {
+      "type": "string",
+      "description": "Full scientific name including genus, species, and any infraspecific epithet"
+    },
+    "genus": {
+      "type": "string",
+      "description": "Genus name"
+    },
+    "species": {
+      "type": "string",
+      "description": "Species epithet"
+    },
+    "family": {
+      "type": "string",
+      "description": "Plant family (e.g., Orchidaceae, Cactaceae)"
+    },
+    "commonName": {
+      "type": "array",
+      "description": "Common name(s) for the plant",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nativeRange": {
+      "type": "string",
+      "description": "Geographic region where the plant naturally occurs"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descriptive text about the plant"
+    },
+    "location": {
+      "type": "string",
+      "description": "Physical location within the USBG where the plant is maintained"
+    },
+    "source": {
+      "type": "string",
+      "description": "Original source from which the plant was acquired"
+    },
+    "acquisitionDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the plant was acquired"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of individual plants in this accession"
+    },
+    "conservationStatus": {
+      "type": "string",
+      "description": "Conservation status (e.g., Endangered, Threatened, Least Concern)",
+      "enum": [
+        "Extinct",
+        "Extinct in the Wild",
+        "Critically Endangered",
+        "Endangered",
+        "Vulnerable",
+        "Near Threatened",
+        "Least Concern",
+        "Data Deficient",
+        "Not Evaluated"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Classification tags for the plant specimen",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
