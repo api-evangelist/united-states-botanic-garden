@@ -26,6 +26,8 @@ description: >-
   U.S. Capitol on the National Mall.
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/us-botanic-garden
   - type: Website
     url: https://www.usbg.gov/
   - type: PlantCollections
