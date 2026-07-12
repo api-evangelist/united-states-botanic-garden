@@ -26,6 +26,8 @@ description: >-
   U.S. Capitol on the National Mall.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/united-states-botanic-garden-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/us-botanic-garden
   - type: Website
@@ -46,6 +48,8 @@ common:
     url: https://www.usbg.gov/learn/education
   - type: Contact
     url: https://www.usbg.gov/about/contact
+  - type: Blog
+    url: https://www.usbg.gov/rss.xml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
