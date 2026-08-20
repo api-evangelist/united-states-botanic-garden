@@ -3,6 +3,12 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/united-states-botanic-garden/refs/heads/main/apis.yml
 name: United States Botanic Garden
 tags:
+  - Federal-Government
+  - Botany
+  - Plants
+  - Conservation
+  - Education
+tags_raw:
   - Federal Government
   - Botany
   - Plants
