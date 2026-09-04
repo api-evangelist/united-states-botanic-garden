@@ -41,7 +41,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/united-sta
 access: 3rd-Party
 created: '2024-11-25'
 modified: '2026-05-03'
-position: Consumer
+position: Consuming
 description: >-
   The United States Botanic Garden (USBG) is a living museum in Washington, D.C.
   that showcases a diverse collection of plants from around the world. Established
